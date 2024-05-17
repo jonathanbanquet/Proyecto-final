@@ -1,0 +1,318 @@
+
+
+html {
+    font-size: 16px;
+}
+
+
+h1 {
+    color: #141414;
+    font-family: 'madeBold';
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #141414;
+    font-family: 'madeRegular';
+}
+
+h2 {
+    color: #141414;
+    font-family: 'madeThin';
+    font-size: 1.1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuir los elementos horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente los elementos */
+    background-color: #151518;
+    padding: none;
+    box-sizing: border-box;
+    /* Incluye el padding en el tamaño total */
+}
+
+nav {
+
+    margin: 0px;
+    padding: 20px;
+    font-family: 'madeRegular';
+    background-color: #151518;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+}
+
+a {
+    padding: 10px;
+    border-right: 2px solid rgb(39, 39, 48);
+    color: rgb(241, 240, 235);
+    text-decoration: none;
+    transition: color 0.3s
+}
+/*
+#mailStyle {
+    padding: 10px;
+    color: rgb(58, 58, 158);
+    text-decoration: none;
+    transition: color 0.3s
+}
+
+#mailStyle:hover {
+    color: rgb(255, 208, 0); /* Cambia el color del texto al pasar el cursor 
+}
+
+a:hover {
+    color: rgb(255, 208, 0); /* Cambia el color del texto al pasar el cursor 
+}
+
+a:last-child {
+    border-right: none;
+}
+
+#tittleNav {
+
+    background-color: #151518;
+    padding: 1%;
+    margin: 0px;
+    color: rgb(241, 240, 235);
+    transition: color 0.3s;
+    font-size: 1.1rem;
+}
+
+#tittleNav:hover {
+    color: rgb(255, 208, 0); /* Cambia el color del texto al pasar el cursor 
+    cursor: pointer;
+}
+
+#barraInformativa {
+    position: relative; /* Permite posicionar los elementos hijos relativamente 
+    overflow: hidden; /* Para ocultar el desbordamiento 
+}
+
+#backgroundText {
+    position: absolute; /* Posición absoluta en relación al contenedor 
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    /*height: 100%; /* Ocupa todo el alto del contenedor 
+    background-color: rgb(241, 240, 235); /* Color de fondo estático 
+    z-index: -1; /* Coloca el fondo detrás del texto 
+}
+
+#textHeader {
+    margin: 0px;
+    padding: 8px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    white-space: nowrap; /* Evita que el texto se divida en múltiples líneas
+    animation: moveText 20s linear infinite; /* Animación de movimiento 
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(-100%); /* Comienza desde la izquierda de la pantalla 
+    }
+    100% {
+        transform: translateX(100%); /* Se mueve completamente hacia la derecha 
+    }
+}
+*/
+body{
+    overflow-x: hidden;
+    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+hr {
+    margin: 10px 0; /* Ajusta el margen de la línea divisora */
+    border: none; /* Elimina el borde predeterminado */
+    border-top: 1px solid rgba(0, 0, 0, 0.411); /* Añade una línea divisora de 1px */
+}
+
+#upcomingEvents{
+    display: flex;
+    padding: 20px;
+    flex-direction: column; /* Organiza los elementos en una columna */
+
+}
+
+#events h3{
+    margin-bottom: 0px;
+}
+
+#events h2{
+    margin-top: 5px;
+}
+
+footer{
+    z-index: 999; /* Asegura que el footer esté por encima de otros elementos */
+    background-color: #141414;
+    font-family: madeThin;
+    max-height: 50px;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+}
+
+#footerTxt{
+    position: relative;
+    margin: 0px;
+    padding-top: 10px;
+    font-style: "madeThin";
+    text-align: center;
+    color: rgb(240, 239, 235);
+}
+
+#aboutUs{
+    padding: 20px;
+    padding-bottom: -20px;
+    flex-direction: column; /* Organiza los elementos en una columna */
+
+}
+
+#footerAbout{
+    z-index: 999; /* Asegura que el footer esté por encima de otros elementos */
+    background-color: #141414;
+    font-family: madeThin;
+    max-height: 50px;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+}
+
+#contactUs{
+    display: flex;
+    height: auto;
+    padding: 20px;
+    flex-direction: column; /* Organiza los elementos en una columna */
+
+}
+
+#contactMain{
+    height: 400px;
+}
+
+/* TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+   
+    padding: 10px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+
+
+
+main .table-container {
+    display: flexbox;
+}
+
+#moreInf{
+    display: flex;
+    
+}
+
+#homeMain article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+main {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+section {
+    width: 100%;
+    max-width: 920px; 
+    padding: 20px;
+    padding-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #232133;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0cb0b;
+}
+
+form label, p, legend{
+    font-family: 'madeThin';
+}
+
+#formR{
+    text-align: center;
+    font-family: "madeRegular";
+    text-transform: uppercase;    
+}

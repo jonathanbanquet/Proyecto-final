@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hockey League">
+    <meta name="author" content="Miguel Severiche">
+    <title>Data Register company</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+</head>
+<body>
+<main>
+    <section>
+        <h2 id="formR">Form Registration</h2>
+        <form action="./show_data.html" method="get">
+
+            <fieldset>
+                <legend>Registration </legend>
+                
+                    <label for="firstname">First name:</label>
+                    <input type="text" name="nombre" id="firstname"  required>
+
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="apellido" id="lastname" required>
+
+                    <label for="address">Street Address:</label>
+                    <input type="text" name="address" id="address" required>
+
+
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city" required>
+
+                    <label for="birthdate">Birth Date:</label>
+                    <input type="date" name="Fecha" id="birthdate" required>
+
+                    <h2>Gender: </h2>
+                    <label for="female">Female
+                        <input type="radio" name="genero" id="female" value="female" required>
+                    </label>
+                    <label for="male">Male
+                        <input type="radio" name="genero" id="male" value="male" required>
+                    </label>
+
+                    <h2>Stratus: </h2>
+                        <label for="grade1">1st
+                            <input type="radio" name="stratus" id="stratus1" value="1st" required>
+                        </label>
+                        <label for="grade2">2nd
+                            <input type="radio" name="stratus" id="stratus2" value="2nd" required>
+                        </label>
+                        <label for="grade3">3rd
+                            <input type="radio" name="stratus" id="stratus3" value="3rd" required>
+                        </label>
+                        <label for="grade4">4th
+                            <input type="radio" name="stratus" id="stratus4" value="4th" required>
+                        </label>
+                        <label for="grade5">5th
+                            <input type="radio" name="stratus" id="stratus5" value="5th" required>
+                        </label>
+                    </fieldset>
+            <fieldset>
+                <legend>Please enter your bank details</legend>
+                <h2>Verify count</h2>
+                <label for="account-number">Account-number
+                    <input type="text" name="account-number" id="account-number" value="" required>
+                </label>
+                <label for="bank-name">Bank name
+                    <input type="text" name="bank-name" id="bank-name" value="" required>
+                </label>
+                <label for="tipoCuenta">Account type</label>
+                <select id="tipoCuenta" name="tipoCuenta">
+                  <option value="cuentaCorriente">Cuenta Corriente</option>
+                  <option value="cuentaAhorro">Cuenta de Ahorro</option>
+                  <option value="cuentaNomina">Cuenta de inversion</option>
+                </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Account Status</legend>
+                <label for="activa">Active
+                    <input type="radio" name="position" id="Forward" value="Forward" required>
+                </label>
+
+                <label for="inactiva">Inactive
+                    <input type="radio" name="position" id="Defense" value="Defense" required>
+                </label>
+
+                <label for="cerrada">Closed
+                    <input type="radio" name="position" id="Midfield" value="Midfield" required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Transaction information</legend>
+                <label for="codigo-cuenta">Account Code:
+                    <input type="number" name="code" id="codigo-cuenta"  required>
+                </label>
+
+                <label for="type-name">Type Name:
+                        <select id="type-name" name="type-name">
+                        <option value="salario">Salary</option>
+                        <option value="comida">Food</option>
+                        <option value="factura">Bill</option>
+                        <option value="viajes">Trips</option>
+
+                        </select>
+                </label>
+
+                <label for="tipo-egreso-ingreso">Type
+                    <select name="tipo-egreso-ingreso" id="tipo-egreso-ingreso">
+                        <option value="ingreso">Income</option>
+                        <option value="egreso">Expense</option>
+                    </select>
+                </label>
+
+                <label for="categoria">Categories
+                    <select name="tipo-egreso-ingreso" id="tipo-egreso-ingreso">
+                        <option value="alimentacion">Feeding </option>
+                        <option value="transporte">Transport</option>
+                        <option value="entretenimiento">Entertainment</option>        
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Permission</legend>
+                
+                
+
+                <label for="Date">Date:
+                    <input type="date" name="Date" id="Date" required>
+                </label>
+
+            </fieldset>
+            <button>Enviar</button>
+        </form>
+
+       
+
+
+
+    </section>
+</main>
+<footer id="footerAbout">
+    <p id="footerTxt">All rights reserved © 2024</p>
+</footer>
+</body>
+</html>
